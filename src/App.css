@@ -1,0 +1,66 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+body {
+  background-color: #282d35;
+  padding: 60px 10px;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.react-logo {
+  width: 40px; /* Adjust the logo size */
+  margin-right: 10px; /* Add space between logo and text */
+}
+
+.nav h1 {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  margin-right: 10px;
+  font-weight: 700;
+  font-size: 22.25px;
+}
+
+.header {
+  width: 100%; /* Ensure the header spans the entire width of the screen */
+  background-color: #21222a; /* Set the gray background color */
+  color: #61dafb; /* Text color for readability */
+  padding: 20px; /* Add some padding inside the header */
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.main-class > h1 {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 47.27px;
+}
+.list {
+  margin-top: 10px;
+  max-width: 400px;
+}
+
+.list-items {
+  padding-block: 10px;
+  line-height: 19px;
+}
+
+.list-items::marker {
+  color: #61dafb;
+  font-size: 1.5rem;
+}
